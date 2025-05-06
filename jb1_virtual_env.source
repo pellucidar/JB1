@@ -1,0 +1,14 @@
+# Set up virtual environment for Jodrell Bank Python Exercize
+
+virtualenv --version
+virtualenv venv
+
+
+source venv/bin/activate
+pip install virtualenvwrapper
+
+pip3 install ducc0
+pip3 install python-casacore
+pip3 install scipy
+pip3 install matplotlib
+pip3 install "astropy[dev_all]" 
